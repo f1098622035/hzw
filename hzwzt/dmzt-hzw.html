@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+		* { margin: 0;padding: 0;}
+		body { 
+			background: url(img/bj.gif)  center;
+			font-family: "宋体";
+			font-size: 12px;
+			line-height: 24px;
+		}
+		a{
+			text-decoration: none;
+			color: black;
+		}
+		
+		#zt {
+			width:940px;
+			margin:  0 auto;
+		}
+		
+		#top1 {
+			background: url(img/top1.gif) no-repeat  center 34px;
+			height: 238px;
+		}
+		#top2{
+			background: url(img/top2.gif)  center; height: 197px;
+		}
+		#nav{
+			background: url(img/nav.gif)  center; height: 35px;
+			padding-top: 30px; 
+		}
+		#nav1 {
+			width: 388px;
+			float: left;
+		}
+		#nav2{
+			width: 388px;
+			float: right;
+		}
+		#nav_bot{
+			background: url(img/nav_bot.gif) no-repeat center;
+			height: 37px;
+		}
+		
+		#div1{
+			width: 940px;
+			height: 356px;
+			margin: 10px 0;
+		}
+		
+		#pic {
+			width:314px;
+			height: 356px;
+			background: url(img/index_06.gif) no-repeat;
+			float: left;
+		}
+		
+		#new{
+			width: 346px;
+			height: 356px;
+			background: url(img/index_08.gif) no-repeat;
+			float: left;
+			margin:0px 16px;
+		}
+		.news{
+			padding: 50px 10px 10px 0;
+		}
+		#new li{
+			list-style-type: none;
+		}
+		#rdtj{
+			width: 243px;
+			height: 356px;
+			background: url(img/index_03.gif) no-repeat;
+			float: left;
+		}
+		
+		#div2{
+			width: 940px;
+			height: 976px;
+		}
+		.box_cen{
+
+		}
+		#mid_left{
+			width: 270px;
+			height: 976px;
+			float: left;
+		}
+		
+		#jj{
+			width: 271px;
+			height: 224px;
+			background: url(img/index1.gif);
+		}
+
+		#jj p{
+			padding: 30px 15px 0;
+			line-height: 15px;
+			font-size: 12px;
+		}
+		
+		.rq{
+			width: 50px;
+			float: right;
+		}
+		.jbzl{
+			width: 270px;
+			overflow: hidden;
+			margin:10px 0 ;
+		}
+		h2{
+			font-size: 12px;
+			font-weight: normal;
+		}
+		
+		#mid_left span{
+			width:82px;
+			height:27px;
+			background: url(img/bjjj_07.gif) no-repeat;
+			display: inline-block;
+			float: left;
+			text-align:center;
+			margin: 0 5px 5px 0;
+			color: #fff;
+		}
+		
+		#tuan{
+			
+		}
+		#tuan li{
+			margin: 0 5px 5px 0;
+			text-align: center;
+			list-style: none;
+			float: left;
+		}
+
+		#mid_mid{
+	
+			width: 400px;
+			height: 956px;
+			float: left;
+			margin: 0 15px 0  8px;
+
+		}
+		
+		#mid_biao_top{
+			height: 11px;
+		}
+		#mid_top img{
+			overflow: hidden;
+			float: left;
+			display: inline;
+			margin-right: 10px;
+		}
+
+		#mid_top h2{
+			font-family: "微软雅黑";
+			font-size: 22px;
+			font-weight: bold;
+			line-height: normal;
+		
+		}
+		#mid_cen{
+			background: url(img/zjbj.gif);
+			padding:10px 20px;
+		}
+		#mid_cen li{
+			list-style: none;
+			text-align: center;
+			float: left;
+			margin: 0 12px 15px 0;
+			
+		}
+		.tu {
+			height: 588px ;
+			padding: 50px 0 0 0;
+			text-align: center;
+		}
+		.tu li{
+			list-style-type: none;
+		}
+		#tu h2{
+			font-weight:bold ;
+		}
+		#mid_bot{
+			background: url(img/zjbj.gif);
+			padding: 10px 20px 0 18px;
+		}
+		#mid_bot img{
+			float: left;
+			display: inline;
+			margin-right: 10px;
+		}
+		
+		#mid_bot p {
+			height: 220px;
+			line-height: 18px;
+			text-indent: 25px;
+		}
+		#mid_right{
+			width: 244px;
+			float: left;
+		}
+		#right_top{
+			height: 49px;
+		}
+		#right_cen{
+			width: 244px;
+			overflow: hidden;
+			background: url(img/bjbjjl_14.gif);
+			padding-top: 10px;
+		}
+		#right_cen li{
+			list-style: none;
+			float: left;
+			padding: 0 10px;
+		}
+
+		#right_bot{
+			height: 260px;
+			background: url(img/sih_20.gif);
+		}
+		#right_bot ul{
+			font-family: "微软雅黑";
+			font-size: 16px;
+			padding-top: 90px;
+			padding-left: 10px;
+			list-style: none;
+		}
+		
+		#bot_pic{
+			width: 240px;
+			height: 280px;
+			background:url(img/lufeiyuaice.jpg) no-repeat;
+			margin-top: 10px;
+			border: solid 0px;
+			border-radius:12px;
+		}
+		
+			#div3{
+				 background: url(img/aaaa.PNG) no-repeat;
+				 width: 1040px;
+				 height: 340px;
+				 margin-top: 50px;
+				 margin-left: -20px;
+			}
+			#gdpic{
+				width: 800px;
+				height:300px;
+				margin-left: 90px;
+				position: relative;
+				overflow: hidden;
+			}
+			#gdpic ul{
+				width: 1800px;
+				list-style-type:none;
+				margin: 0;
+				padding: 0;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			#gdpic ul li{float: left; width: 200px; height: 260px}
+			#gdpic img{
+				margin-top: 20px;
+
+			}
+		</style>
+	</head>
+	<body>
+	<div id="zt">
+		<div id="top">
+			<div id="top1"></div>
+			<div id="top2"></div>
+			<div id="nav">
+				<div id="nav1"></div>
+				<div id="nav2"></div>
+			</div>
+			<div id="nav_bot"></div>
+		</div>
+		<div id="box">
+				<div id="div1">
+					<div id="pic">
+						
+					</div>
+					<div id="new">
+						<ul class="news">
+<li><span class="rq">04-09</span>·<a href="" title="弗兰奇坦克 海贼王超合金新品"  >弗兰奇坦克 海贼王超合金新品</a></li>
+<li><span class="rq">04-09</span>·<a href="" title="【ACTOYS】海贼王外拍摄影大赛今日开赛！！！"  >【ACTOYS】海贼王外拍摄影大赛今日开赛！！</a></li>
+<li><span class="rq">04-06</span>·<a href="" title="上海全家超市海贼王金属钥匙圈！"  >上海全家超市海贼王金属钥匙圈！</a></li>
+<li><span class="rq">04-06</span>·<a href="" title="海贼王ZERO展"  >海贼王ZERO展</a></li>
+<li><span class="rq">03-22</span>·<a href="" title="燃到爆！最热血海贼王编外传《海贼之道》"  >燃到爆！最热血海贼王编外传《海贼之道》</a></li>
+<li><span class="rq">03-22</span>·<a href="" title="尾田谈「海贼王」人气角色 “艾斯将永远无法吐便当”"  >尾田谈「海贼王」人气角色 “艾斯将永远无</a></li>
+<li><span class="rq">03-22</span>·<a href="" title="《海贼王无双》销量狂飙突进 一周内接近百万"  >《海贼王无双》销量狂飙突进 一周内接近百</a></li>
+<li><span class="rq">03-22</span>·<a href="" title="海贼王艾斯悬赏金5亿5千万"  >海贼王艾斯悬赏金5亿5千万</a></li>
+<li><span class="rq">03-22</span>·<a href="" title="尾田《海贼王》最初预计只画5年 完结后将不再出新作"  >尾田《海贼王》最初预计只画5年 完结后将不</a></li>
+<li><span class="rq">03-22</span>·<a href="" title="“ONE PIECE展”今日开幕"  >“ONE PIECE展”今日开幕</a></li>
+<li><span class="rq">01-06</span>·<a href="" title="日本2011年漫画全卷销量排名 海贼王霸气依旧"  >日本2011年漫画全卷销量排名 海贼王霸气依</a></li>
+<li><span class="rq">01-06</span>·<a href="" title="海贼王动画第530集一周停播 1月8日放送"  >海贼王动画第530集一周停播 1月8日放送</a></li>
+              </ul>
+					</div>
+					<div id="rdtj">
+						<ul class="tu">
+<li><a href="/Html/2011/45574.shtml"><img src="img/201112221416165649.jpg" alt="海贼王动画第529集： 鱼人岛灭亡？夏利的预言！"></a><h2><a href="/Html/2011/45574.shtml" target="_blank">海贼王动画第529集： 鱼人岛灭亡</a></h2>
+</li>
+<li><a href="/Html/2011/45549.shtml"><img src="img/201112261134208559.jpg" alt="海贼王动画第528集：兴奋爆发！香吉士生命垂危"></a><h2><a href="/Html/2011/45549.shtml" target="_blank">海贼王动画第528集：兴奋爆发！</a></h2>
+</li>
+
+        </ul>
+					</div>
+				</div>
+				<div id="div2">
+					<div id="mid_left" class="box_cen">
+						<div id="jj">
+							<p>海贼王"ONE PIECE"在故事中为"一个大秘宝"之意。
+								故事描述男主角'草帽'蒙其·D·路飞为了当上"海贼王"而踏上"伟大航道"及与其伙伴的经历。
+								传说中'海贼王'哥尔·D·罗杰在死前说出他留下了具有财富、名声、力量世界第一的宝藏"ONE PIECE"，
+								许多人为了争夺"ONE PIECE"，争相出海，许多海贼开始树立霸权，而形成了"大海贼时代"。</p>
+						</div>
+						<div class="jbzl">
+							<span class="zl_bj">海贼历史</span>
+							<span class="zl_bj">故事简介</span>
+							<span class="zl_bj">事件年表</span>
+							<span class="zl_bj">恶魔果实</span>
+							<span class="zl_bj">海贼赏金</span>
+							<span class="zl_bj">海贼武器</span>
+							<span class="zl_bj">作者介绍</span>
+							<span class="zl_bj">交通工具</span>
+							<span class="zl_bj">名词解释</span>
+							<span class="zl_bj">食物清单</span>
+							<span class="zl_bj">船长的审判</span>
+							<span class="zl_bj">海贼TOP10</span>
+						</div>
+						<div><img src="img/hztjs_10.gif"/></div>
+						<div class="jbzl">
+							<ul id="tuan">
+				            <li><a href="#"><img src="img/tuan_13.gif" /><h2>草帽海贼团</h2></a></li>
+				            <li><a href="#"><img src="img/hz_15.gif" /><h2>罗杰海贼团</h2></a></li>
+				            <li><a href="#"><img src="img/hz_hj_17.gif" /><h2>白胡子海贼团</h2></a></li>
+				            <li><a href="#"><img src="img/hz_hj_25.gif" /><h2>红发海贼团</h2></a></li>
+				            <li><a href="#"><img src="img/hz_hj_27.gif" /><h2>九蛇海贼团</h2></a></li>
+				            <li><a href="#"><img src="img/hz_hj_28.gif" /><h2>黑胡子海贼团</h2></a></li>
+				            <li><a href="#"><img src="img/hz_hj_35.gif" /><h2>恶龙海贼团</h2></a></li>
+				            <li><a href="#"><img src="img/hz_hj_36.gif" /><h2>克利克海贼团</h2></a></li>
+				            <li><a href="#"><img src="img/hz_hj_37.gif" /><h2>巴基海贼团</h2></a></li>
+				            <li><a href="#"><img src="img/hz_hj_41.gif" /><h2>亚尔丽塔海贼团</h2></a></li>
+				            <li><a href="#"><img src="img/hz_hj_42.gif" /><h2>黑猫海贼团</h2></a></li>
+				            <li class="hs"><h2>其他海贼团</h2><a href="  "><img src=" img/more_05.gif"></a></li>
+				           </ul>
+						</div>
+						<div class="jbzl">
+							<img src="img/dyy_07.gif" />
+						</div>
+						<div class="jbzl">
+							<img src="img/gmj_10.gif" />
+						</div>
+					</div>
+					<div id="mid_mid" class="box_cen">
+						<div id="mid_biao_top">
+							<img src="img/zj_top_03.gif" />
+						</div>
+						<div id="mid_cen">
+						<div id="mid_top">
+							<img src="img/tutu_07.gif" />
+							<h2>草帽海贼团！<br/>大家一起期待第十人吧!</h2>
+						</div>
+						<div id="biao">
+							<img src="img/biao_10.gif" />
+						</div>
+						<div id="tu">
+							<ul>
+								<li><a href="#"><img src="img/tu3_03.gif"/><h2>路飞</h2></a></li>
+								<li><a href="#"><img src="img/hz_hj_03.gif"/><h2>索隆</h2></a></li>
+								<li><a href="#"><img src="img/hz_hj_05.gif"/><h2>娜美</h2></a></li>
+								<li><a href="#"><img src="img/hz_hj_10.gif"/><h2>山治</h2></a></li>
+								<li><a href="#"><img src="img/hz_hj_29.gif"/><h2>乌索普</h2></a></li>
+								<li><a href="#"><img src="img/hz_hj_12.gif"/><h2>乔巴</h2></a></li>
+								<li><a href="#"><img src="img/hz_hj_13.gif"/><h2>罗宾</h2></a></li>
+								<li><a href="#"><img src="img/hz_hj_31.gif"/><h2>弗兰奇</h2></a></li>
+								<li><a href="#"><img src="img/hz_hj_30.gif"/><h2>布鲁克</h2></a></li>
+							</ul>
+							</div>
+							<div>
+								<img src="img/biao_10.gif"/>
+							</div>
+						</div>
+						<div id="mid_bot">
+						<img src="img/igmsdj_07.gif" />
+						<p> 路飞和其他伙伴成员的再次重逢以及第十人伙伴的加入是近期热衷于海贼的粉丝的热议话题。
+							海贼迷分析说新加入的伙伴的战斗力有可能体现在大脑，也就是思维能力。
+							因为貌似后面的路更加难走，一个劲儿的蛮干没有一位诸葛亮似的人物做智囊肯定会后患无穷。
+							路飞在前面剧集就扬言要集齐10位伙伴，也正是因为这句话我们期待着一位又一位伙伴的加入，
+							路飞领军的海贼团已经有九个...[更多]</p>
+						</div>
+						<div id="biao_bot">
+							<img src="img/ind_bot_07.gif" />
+						</div>
+					</div>
+					<div id="mid_right" class="box_cen">
+						<div id="right_top">
+							<img src="img/hztd_03.gif" />
+						</div>
+						<div id="right_cen">
+					          <ul id="tp">
+					          	<li><img src="img/xjtp3.gif"><h2>甚平
+								</li>
+								<li><img src="img/tprw1.gif" ><h2>Mr.2
+								</li>
+								<li><img src="img/rw.gif"><h2>汉库克
+								</li>
+								<li><img src="img/xjtp2.gif"  ><h2>玛格丽特
+								</li>
+								<li><img src="img/xjtp1.gif"  ><h2>佩罗娜
+								</li>
+								<li><img src="img/tprw4.gif"><h2>未知人物
+								</li>
+					          </ul>
+					    </div>
+					    <div>
+					          <img src="img/zopd_14.gif" />
+					        </div>
+						<div id="right_bot">
+							<ul>
+								<li>草帽小子-路飞</li>
+								<li>黑胡子-马歇尔·帝奇</li>
+								<li>小丑-巴基</li>
+								<li>艾尼路</li>
+							</ul>
+
+							</div>
+						<div id="bot_pic">	
+						</div>
+				</div>
+			</div>
+			<div id="div3">
+					<script>
+						window.onload = function() {
+							var timer = null;
+							var oDiv = document.getElementById('gdpic');
+							var oUl = oDiv.getElementsByTagName('ul')[0];
+							var aLi = oUl.getElementsByTagName('li');
+							oUl.innerHTML += oUl.innerHTML;
+							oUl.style.width = aLi[0].offsetWidth*aLi.length+'px';
+							var speed = -2;
+							function move() {
+								if(oUl.offsetLeft<-oUl.offsetWidth/2) {
+									oUl.style.left = 0;
+								}
+								if(oUl.offsetLeft>0) {
+									oUl.style.left = -oUl.offsetWidth/2+'px';
+								}
+								oUl.style.left = oUl.offsetLeft+speed+'px';
+							}
+							timer = setInterval(move,30);
+							oDiv.onmouseover = function() {
+								clearInterval(timer);
+							}
+							oDiv.onmouseout = function() {
+								timer = setInterval(move,30);
+							}
+							var oA = document.getElementsByTagName('a');
+						}
+					</script>
+					<div id='gdpic'>
+						<ul>
+							<li><img src="img/lufei.jpeg"/></li>
+							<li><img src="img/namei.png"/></li>
+							<li><img src="img/zuoluo.png"/></li>
+							<li><img src="img/shanzhi.png"/></li>
+							<li><img src="img/lu.png"/></li>
+							<li><img src="img/buluke.png"/></li>
+							<li><img src="img/luobin.jpeg"/></li>
+							<li><img src="img/fulanke.png"/></li>
+							<li><img src="img/bizi.png"/></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

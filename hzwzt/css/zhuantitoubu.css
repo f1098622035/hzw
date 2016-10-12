@@ -1,0 +1,54 @@
+	* { margin: 0;padding: 0;}
+	body { 
+		font-family: "宋体";
+		font-size: 12px;
+		line-height: 24px;
+	}
+	#top1 {
+		background: url(../img/top1.gif) no-repeat center 34px;
+		height: 238px;
+	}
+	#top2{
+		background: url(../img/top2.gif) no-repeat center; height: 197px;
+	}
+	#nav{
+		background: url(../img/nav.gif) no-repeat center; height: 35px;
+		padding-top: 30px; 
+	}
+	#nav1 {
+		width: 388px;
+		float: left;
+	}
+	#nav2{
+		width: 388px;
+		float: right;
+	}
+	#nav_bot{
+		background: url(../img/nav_bot.gif) no-repeat center;
+		height: 37px;
+	}
+	
+	#box{
+		width:894px;
+		height:2690px;
+	}
+	
+	.div{
+		width:840px;
+		height:318px;
+	}
+}
+	#pic{
+		background-image: url(../img/index_06.gif);
+		background-position: right;
+		width:282px;
+		display: inline;
+		float: left;
+	}
+	
+	#new{
+		width: 310px;
+		height: 318px;
+		background: url(../img/index_08.gif);
+	}
+	
